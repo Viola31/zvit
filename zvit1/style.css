@@ -53,14 +53,41 @@ button{
     margin-left: 75px;
 
 }
-.desc{
-    text-align: left;
-    max-width: 100%;
-    height: 100%;
-    margin-top: -450px;
-    margin-left: 420px;
-}
+
 .container{
     width: 10px;
     height: 10px;
 }
+.container-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: -650px;
+    margin-left: 420px;
+    gap: 20px; /* Відстань між елементами */
+    list-style: none; /* Вимкнути маркери списку */
+    padding: 0;
+    width: 100%; /* Контролює ширину контейнера */
+}
+
+.desc {
+    text-align: left;
+    font-size: 24px;
+    max-width: 100%;
+
+}
+
+iframe {
+    border: none;
+    width: 70%;
+    height: 250px;
+    display: block;
+}
+.desc-button{
+    text-align: left;
+    max-width: 100%;
+    height: 100%;
+    margin-top: -600px;
+    margin-left: 420px;
+    font-size: 24px;
+}
+
